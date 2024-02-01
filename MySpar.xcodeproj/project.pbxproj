@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E706F5DC2B6AC4080096FB3D /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E706F5DB2B6AC4080096FB3D /* StepperView.swift */; };
+		E706F5DF2B6AC6340096FB3D /* FractionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E706F5DE2B6AC6340096FB3D /* FractionView.swift */; };
+		E706F5E12B6ACDA50096FB3D /* TheQuantityOfTheProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E706F5E02B6ACDA50096FB3D /* TheQuantityOfTheProductView.swift */; };
 		E7938BE02B6A388900830359 /* MySparApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7938BDF2B6A388900830359 /* MySparApp.swift */; };
 		E7938BE22B6A388900830359 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7938BE12B6A388900830359 /* ContentView.swift */; };
 		E7938BE42B6A388B00830359 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7938BE32B6A388B00830359 /* Assets.xcassets */; };
 		E7938BE72B6A388B00830359 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7938BE62B6A388B00830359 /* Preview Assets.xcassets */; };
+		E7938BEE2B6A42C400830359 /* ImageAndNameOfProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7938BED2B6A42C400830359 /* ImageAndNameOfProductView.swift */; };
+		E7938BF02B6A4FC500830359 /* CouponView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7938BEF2B6A4FC500830359 /* CouponView.swift */; };
+		E7938BF22B6A838C00830359 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7938BF12B6A838C00830359 /* DescriptionView.swift */; };
+		E7938BF42B6A999200830359 /* ReviewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7938BF32B6A999200830359 /* ReviewsView.swift */; };
+		E7938BF72B6A9C3F00830359 /* ReviewsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7938BF62B6A9C3F00830359 /* ReviewsViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E706F5DB2B6AC4080096FB3D /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
+		E706F5DE2B6AC6340096FB3D /* FractionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractionView.swift; sourceTree = "<group>"; };
+		E706F5E02B6ACDA50096FB3D /* TheQuantityOfTheProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheQuantityOfTheProductView.swift; sourceTree = "<group>"; };
 		E7938BDC2B6A388900830359 /* MySpar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySpar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7938BDF2B6A388900830359 /* MySparApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySparApp.swift; sourceTree = "<group>"; };
 		E7938BE12B6A388900830359 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E7938BE32B6A388B00830359 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7938BE62B6A388B00830359 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E7938BED2B6A42C400830359 /* ImageAndNameOfProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAndNameOfProductView.swift; sourceTree = "<group>"; };
+		E7938BEF2B6A4FC500830359 /* CouponView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponView.swift; sourceTree = "<group>"; };
+		E7938BF12B6A838C00830359 /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
+		E7938BF32B6A999200830359 /* ReviewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsView.swift; sourceTree = "<group>"; };
+		E7938BF62B6A9C3F00830359 /* ReviewsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +48,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E706F5DD2B6AC6220096FB3D /* StepperViewGroup */ = {
+			isa = PBXGroup;
+			children = (
+				E706F5DB2B6AC4080096FB3D /* StepperView.swift */,
+				E706F5DE2B6AC6340096FB3D /* FractionView.swift */,
+				E706F5E02B6ACDA50096FB3D /* TheQuantityOfTheProductView.swift */,
+				E7938BE32B6A388B00830359 /* Assets.xcassets */,
+			);
+			path = StepperViewGroup;
+			sourceTree = "<group>";
+		};
+		E75724882B6BA1620070F79F /* ProductAndDescriptionViewGoup */ = {
+			isa = PBXGroup;
+			children = (
+				E7938BED2B6A42C400830359 /* ImageAndNameOfProductView.swift */,
+				E7938BEF2B6A4FC500830359 /* CouponView.swift */,
+				E7938BF12B6A838C00830359 /* DescriptionView.swift */,
+			);
+			path = ProductAndDescriptionViewGoup;
+			sourceTree = "<group>";
+		};
 		E7938BD32B6A388900830359 = {
 			isa = PBXGroup;
 			children = (
@@ -53,7 +90,9 @@
 			children = (
 				E7938BDF2B6A388900830359 /* MySparApp.swift */,
 				E7938BE12B6A388900830359 /* ContentView.swift */,
-				E7938BE32B6A388B00830359 /* Assets.xcassets */,
+				E75724882B6BA1620070F79F /* ProductAndDescriptionViewGoup */,
+				E7938BF52B6A9C2E00830359 /* ReviewsViewGroup */,
+				E706F5DD2B6AC6220096FB3D /* StepperViewGroup */,
 				E7938BE52B6A388B00830359 /* Preview Content */,
 			);
 			path = MySpar;
@@ -65,6 +104,15 @@
 				E7938BE62B6A388B00830359 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E7938BF52B6A9C2E00830359 /* ReviewsViewGroup */ = {
+			isa = PBXGroup;
+			children = (
+				E7938BF32B6A999200830359 /* ReviewsView.swift */,
+				E7938BF62B6A9C3F00830359 /* ReviewsViewCell.swift */,
+			);
+			path = ReviewsViewGroup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +185,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7938BF42B6A999200830359 /* ReviewsView.swift in Sources */,
+				E706F5DF2B6AC6340096FB3D /* FractionView.swift in Sources */,
 				E7938BE22B6A388900830359 /* ContentView.swift in Sources */,
+				E7938BEE2B6A42C400830359 /* ImageAndNameOfProductView.swift in Sources */,
+				E7938BF72B6A9C3F00830359 /* ReviewsViewCell.swift in Sources */,
+				E706F5DC2B6AC4080096FB3D /* StepperView.swift in Sources */,
+				E706F5E12B6ACDA50096FB3D /* TheQuantityOfTheProductView.swift in Sources */,
+				E7938BF02B6A4FC500830359 /* CouponView.swift in Sources */,
 				E7938BE02B6A388900830359 /* MySparApp.swift in Sources */,
+				E7938BF22B6A838C00830359 /* DescriptionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +330,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -281,9 +338,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "-2121.MySpar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,6 +362,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,9 +370,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "-2121.MySpar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
